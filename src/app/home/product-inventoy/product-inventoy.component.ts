@@ -33,7 +33,7 @@ export class ProductInventoyComponent implements OnInit{
         
       }
 
-        //write code here 
+        //write  code for search here 2
 
       );
     },1000);
