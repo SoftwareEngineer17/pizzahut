@@ -1,0 +1,16 @@
+<div class="row">
+     <div class="col-sm-7">
+        <img class="image img-thumbnail"  [src]="productData.product_Image" alt="Card image cap" >
+     </div>
+     <div class="col-sm-5">
+        <h2 class="text-bold">{{productData.name | uppercase}} <span class="badge badge-warning"> New</span></h2>
+        <p><span class="text-bold">Price :</span> {{productData.price|currency:'INR'}}</p>
+        <p><span class="text-bold">Discount Price :</span>  {{productData.discount_Price|currency:'INR'}}</p>
+        <p><span class="text-bold">ITemOrWeight :</span>  {{productData.itemsOrWeight}}</p>
+        <!-- <p class="text-bold">{{productData.description}}</p> -->
+        <p class="text-bold text-adjust">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempore numquam debitis dignissimos quod, dolor quis soluta voluptatibus a quaerat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat rem voluptate tempora, consequatur dolorem rerum porro illo neque perspiciatis delectus asperiores molestias odio aliquid ex veritatis facere sunt, illum autem?</p>
+        
+        
+        <button class="btn btn-warning justify-space-around w-100">Add To Cart</button>
+     </div>
+ </div>

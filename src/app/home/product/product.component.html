@@ -1,0 +1,11 @@
+
+    
+        <div class="card">
+            <img class="card-img-top" (click)="openDialog()" [src]="productData.product_Image" alt="Card image cap" height="250px">
+            <div class="card-body ">
+                <h2 class="card-title font-weight-bold">{{productData.name| uppercase}} <span class="badge badge-warning">New</span></h2>
+                <p>Price : {{productData.price|currency:'INR'}}</p>
+                <button class="btn btn-warning justify-space-around">Add To Cart</button>
+            </div>
+        </div>
+    

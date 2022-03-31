@@ -1,0 +1,40 @@
+#carouselExampleControls{
+    
+    height: 300px;
+    width: 70%;
+    img{
+        width: 100%;
+    }
+    margin: auto;
+}   
+
+.productcategory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.noProductFoundImage{
+    margin: auto;
+}
+.productCategoryStyle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex: 1;
+        
+}
+.productCategoryStyle:hover{
+    color: green;
+    font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+    #carouselExampleControls{
+        width: 100%;
+    }
+}
+
+
