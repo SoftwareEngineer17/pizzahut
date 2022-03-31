@@ -20,7 +20,7 @@ export class ProductDetailComponent implements OnInit {
       this.productService.productCategoryData$.forEach(c => c.productSubCategory.forEach(sc => sc.product.forEach(p=> {if(p.product_Id == this.data.Product_Id){this.productData = p}})));
     }
   }
-// Edit File from remote 2
+// Edit File from remote
 }
 
 export interface DialogData{
